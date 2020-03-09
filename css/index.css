@@ -1,0 +1,145 @@
+/* Font Family */
+
+@import url("https://fonts.googleapis.com/css?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap");
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Cabin", sans-serif;
+}
+
+.navbar {
+    font-size: 22px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+    color: #467875;
+    margin-top: 15px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #54928e;
+}
+
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.logo {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: "Abril Fatface", cursive;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: #467875;
+}
+
+.logoFooter {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: "Abril Fatface", cursive;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: black;
+    font-size: 24px;
+    margin-top: 18px;
+}
+
+.active {
+    display: block;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #1d3130;
+    text-align: center;
+}
+
+.infoFooter {
+    font-family: "Abril Fatface", cursive;
+    color: rgb(221, 221, 221);
+    font-size: 15px;
+}
+
+.numeroFooter {
+    font-family: "Abril Fatface", cursive;
+    color: rgb(221, 221, 221);
+    font-size: 12px;
+}
+
+.emailFooter {
+    font-family: "Abril Fatface", cursive;
+    color: rgb(221, 221, 221);
+    font-size: 11px;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .main-nav li {
+        margin: 0;
+    }
+    .nav-links {
+        margin-left: 40px;
+    }
+    .logo {
+        margin-top: 0;
+    }
+    .navbar-toggle {
+        display: none;
+    }
+    .logo:hover,
+    .nav-links:hover {
+        color: #bed7c6;
+    }
+}

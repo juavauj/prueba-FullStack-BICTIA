@@ -1,0 +1,117 @@
+/* Font Family */
+
+@import url("https://fonts.googleapis.com/css?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap");
+
+/* Body */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Cabin", sans-serif;
+}
+
+.nombreLogo {
+    font-family: "Abril Fatface", cursive;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: #bed7c6;
+}
+
+.section {
+    display: flex;
+    overflow: hidden;
+}
+
+.form-register {
+    z-index: 1;
+}
+
+.imagenFondo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.tituloInicial {
+    text-align: center;
+}
+
+.form-register h4 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #e6dbd0;
+}
+
+.form-register {
+    width: 400px;
+    background: #1d3130;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    color: #e6dbd0;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.controls {
+    width: 100%;
+    background: #1d3130;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #7d6167;
+    color: #7d6167;
+    font-size: 15px;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form-register a: {
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .botonsRegistro {
+    width: 100%;
+    background: #7d8880;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.form-register .botonsLogin {
+    width: 100%;
+    background: #616963;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.form-register .controls {
+    color: white;
+}
