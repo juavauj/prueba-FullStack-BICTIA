@@ -1,3 +1,4 @@
 # Prueba FullStack - BICTIA
 
-Tienda de ropa para prueba de admsión FullStack - BICTIA
+09 - Marzo - 2020
+Tienda de ropa para prueba de admisión FullStack - BICTIA
